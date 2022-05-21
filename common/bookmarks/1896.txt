@@ -3,7 +3,7 @@ bookmarks = {
 		name = "1896_NAME"
 		desc = "1896_BOOKMARK_LOC"
 		date = 1896.1.1.12
-		picture = "GFX_select_date_1196"
+		picture = "GFX_select_date_1896"
 		default_country = "USA"
 		default = yes
 		

@@ -1,15 +1,14 @@
-<<<<<<< Updated upstream:common/bookmarks/the_gathering_storm.old
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
-		date = 1936.1.1.12
-		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		name = "1924_NAME"
+		desc = "1924_BOOKMARK_LOC"
+		date = 1924.1.1.12
+		picture = "GFX_select_date_1924"
+		default_country = "USA"
 		default = yes
 		
 		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "FRA_1896_BOOKMARK_LOC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
 			ideas = {
@@ -24,7 +23,7 @@ bookmarks = {
 			}
 		}
 		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "FRA_1896_BOOKMARK_LOC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
@@ -39,7 +38,7 @@ bookmarks = {
 			}
 		}
 		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "USA_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				home_of_the_free
@@ -53,7 +52,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "ENG_1896_BOOKMARK_LOC"
 			ideology = democratic
 			available = { has_dlc = "Man the Guns" }
 			ideas = {
@@ -68,7 +67,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "ENG_1896_BOOKMARK_LOC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "Man the Guns" } }
 			ideas = {
@@ -83,7 +82,7 @@ bookmarks = {
 			}
 		}
 		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "GER_1896_BOOKMARK_LOC"
 			ideology = fascism
 			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
@@ -98,7 +97,7 @@ bookmarks = {
 			}
 		}
 		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "GER_1896_BOOKMARK_LOC"
 			ideology = fascism
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
@@ -113,7 +112,7 @@ bookmarks = {
 			}
 		}
 		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
+			history = "ITA_1896_BOOKMARK_LOC"
 			ideology = fascism
 			ideas = {
 				vittoria_mutilata
@@ -126,7 +125,7 @@ bookmarks = {
 			}		
 		}
 		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
+			history = "JAP_1896_BOOKMARK_LOC"
 			ideology = fascism
 			ideas = {
 				state_shintoism
@@ -139,46 +138,46 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}			
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+		"RUS"={
+			history = "RUS_1896_BOOKMARK_LOC"
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
 			ideas = {
 				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				RUS_second_five_year_plan_fake_1936_ns
+				RUS_politicized_military
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_the_supreme_soviet
-				SOV_reconvene_the_zemsky_sobor
+				RUS_behead_the_snake
+				RUS_the_supreme_soviet
+				RUS_reconvene_the_zemsky_sobor
 			}	
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+		"RUS"={
+			history = "RUS_1896_BOOKMARK_LOC"
 			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
 				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				RUS_second_five_year_plan_fake_1936_ns
+				RUS_politicized_military
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
+				RUS_behead_the_snake
+				RUS_father_of_nations
+				RUS_the_supreme_soviet
 			}	
 		}
 
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_1896_BOOKMARK_LOC"
 		}
 
 
 		# minors from DLC ####
 		"CAN"={
 			minor = yes
-			history = "CAN_GATHERING_STORM_DESC"
+			history = "CAN_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				CAN_great_depression_1
@@ -192,7 +191,7 @@ bookmarks = {
 		}
 		"AST"={
 			minor = yes
-			history = "AST_GATHERING_STORM_DESC"
+			history = "AST_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				AST_great_depression_1
@@ -205,7 +204,7 @@ bookmarks = {
 		}
 		"NZL"={
 			minor = yes
-			history = "NZL_GATHERING_STORM_DESC"
+			history = "NZL_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				
@@ -218,7 +217,7 @@ bookmarks = {
 		}
 		"SAF"={
 			minor = yes
-			history = "SAF_GATHERING_STORM_DESC"
+			history = "SAF_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				SAF_ossewabrandwag
@@ -232,7 +231,7 @@ bookmarks = {
 		}
 		"RAJ"={
 			minor = yes
-			history = "RAJ_GATHERING_STORM_DESC"
+			history = "RAJ_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				RAJ_agrarian_society
@@ -246,7 +245,7 @@ bookmarks = {
 		}
 		"CZE"={
 			minor = yes
-			history = "CZE_GATHERING_STORM_DESC"
+			history = "CZE_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				CZE_skoda_works
@@ -261,7 +260,7 @@ bookmarks = {
 
 		"HUN"={
 			minor = yes
-			history = "HUN_GATHERING_STORM_DESC"
+			history = "HUN_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				HUN_treaty_of_triannon
@@ -275,7 +274,7 @@ bookmarks = {
 
 		"ROM"={
 			minor = yes
-			history = "ROM_GATHERING_STORM_DESC"
+			history = "ROM_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				ROM_king_carol_ii_hedonist
@@ -290,7 +289,7 @@ bookmarks = {
 		
 		"YUG"={
 			minor = yes
-			history = "YUG_GATHERING_STORM_DESC"
+			history = "YUG_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				anti_german_military
@@ -305,7 +304,7 @@ bookmarks = {
 		}
 		"CHI"={
 			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
+			history = "CHI_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				CHI_army_corruption_1
@@ -320,7 +319,7 @@ bookmarks = {
 		}
 		"PRC"={
 			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
+			history = "PRC_1896_BOOKMARK_LOC"
 			ideology = communism
 			ideas = {
 				PRC_the_long_march_1
@@ -335,7 +334,7 @@ bookmarks = {
 		}
 		"MAN"={
 			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
+			history = "MAN_1896_BOOKMARK_LOC"
 			ideology = fascism
 			ideas = {
 				MAN_banditry
@@ -351,7 +350,7 @@ bookmarks = {
 		
 		"GXC"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
+			history = "WARLORDS_1896_BOOKMARK_LOC"
 			ideology = fascism
 			ideas = {
 				PRC_government_corruption
@@ -365,7 +364,7 @@ bookmarks = {
 		}		
 		"YUN"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
+			history = "WARLORDS_1896_BOOKMARK_LOC"
 			ideology = fascism
 			ideas = {
 				PRC_government_corruption
@@ -379,7 +378,7 @@ bookmarks = {
 		}		
 		"SHX"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
+			history = "WARLORDS_1896_BOOKMARK_LOC"
 			ideology = fascism
 			ideas = {
 				PRC_government_corruption
@@ -393,7 +392,7 @@ bookmarks = {
 		}		
 		"XSM"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
+			history = "WARLORDS_1896_BOOKMARK_LOC"
 			ideology = fascism
 			ideas = {
 				PRC_government_corruption
@@ -407,7 +406,7 @@ bookmarks = {
 		}		
 		"SIK"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
+			history = "WARLORDS_1896_BOOKMARK_LOC"
 			ideology = fascism
 			ideas = {
 				PRC_government_corruption
@@ -422,7 +421,7 @@ bookmarks = {
 		
 		"MEX"={
 			minor = yes
-			history = "MEXICO_GATHERING_STORM_DESC"
+			history = "MEXICO_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				MEX_church_power_2
@@ -438,7 +437,7 @@ bookmarks = {
 
 		"HOL"={
 			minor = yes
-			history = "NETHERLANDS_GATHERING_STORM_DESC"
+			history = "NETHERLANDS_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				HOL_wilhelmina
@@ -454,7 +453,7 @@ bookmarks = {
 
 		"SPR"={
 			minor = yes
-			history = "SPAIN_GATHERING_STORM_DESC"
+			history = "SPAIN_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				SPR_military_disloyalty
@@ -470,7 +469,7 @@ bookmarks = {
 
 		"POR"={
 			minor = yes
-			history = "PORTUGAL_GATHERING_STORM_DESC"
+			history = "PORTUGAL_1896_BOOKMARK_LOC"
 			ideology = democratic
 			ideas = {
 				POR_unstable_republic
@@ -485,7 +484,7 @@ bookmarks = {
 
 		"BUL"={
 			minor = yes
-			history = "BUL_GATHERING_STORM_DESC"
+			history = "BUL_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				BUL_second_national_catastrophe
@@ -501,7 +500,7 @@ bookmarks = {
 
 		"GRE"={
 			minor = yes
-			history = "GRE_GATHERING_STORM_DESC"
+			history = "GRE_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				GRE_debt_to_the_ifc
@@ -517,7 +516,7 @@ bookmarks = {
 
 		"TUR"={
 			minor = yes
-			history = "TUR_GATHERING_STORM_DESC"
+			history = "TUR_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				TUR_sectarian_woes
@@ -534,7 +533,7 @@ bookmarks = {
 		
 		"LIT"={
 			minor = yes
-			history = "LIT_GATHERING_STORM_DESC"
+			history = "LIT_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				LIT_agrarian_society
@@ -549,7 +548,7 @@ bookmarks = {
 		
 		"LAT"={
 			minor = yes
-			history = "LAT_GATHERING_STORM_DESC"
+			history = "LAT_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				LAT_perkonkrust_idea
@@ -564,7 +563,7 @@ bookmarks = {
 		
 		"EST"={
 			minor = yes
-			history = "EST_GATHERING_STORM_DESC"
+			history = "EST_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				EST_vaps_idea_1
@@ -578,7 +577,7 @@ bookmarks = {
 		}
 		"POL"={
 			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
+			history = "POL_1896_BOOKMARK_LOC"
 			ideology = neutrality
 			ideas = {
 				uncontrolled_exports
@@ -597,5 +596,3 @@ bookmarks = {
 		}
 	}
 }
-=======
->>>>>>> Stashed changes:common/bookmarks/the_gathering_storm.txt
