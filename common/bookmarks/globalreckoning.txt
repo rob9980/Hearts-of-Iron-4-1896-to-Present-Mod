@@ -1,9 +1,9 @@
 bookmarks = {
 	bookmark = {
-		name = "1896_NAME"
-		desc = "1896_BOOKMARK_LOC"
-		date = 1896.1.1.12
-		picture = "GFX_select_date_1896"
+		name = "1945_NAME"
+		desc = "1945_BOOKMARK_LOC"
+		date = 1945.9.2.12
+		picture = "GFX_select_date_1945"
 		default_country = "USA"
 		default = yes
 		
