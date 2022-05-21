@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:common/bookmarks/the_gathering_storm.old
 bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
@@ -596,3 +597,5 @@ bookmarks = {
 		}
 	}
 }
+=======
+>>>>>>> Stashed changes:common/bookmarks/the_gathering_storm.txt

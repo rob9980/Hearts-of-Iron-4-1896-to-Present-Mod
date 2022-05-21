@@ -3,7 +3,7 @@ bookmarks = {
 		name = "1896"
 		desc = "1896_BOOKMARK_LOC"
 		date = 1896.1.1.12
-		picture = "GFX_select_date_1896"
+		picture = "GFX_select_date_1936"
 		default_country = "USA"
 		default = yes
 		
@@ -144,13 +144,13 @@ bookmarks = {
 			available = { has_dlc = "No Step Back" }
 			ideas = {
 				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				RUS_second_five_year_plan_fake_1936_ns
+				RUS_politicized_military
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_the_supreme_soviet
-				SOV_reconvene_the_zemsky_sobor
+				RUS_behead_the_snake
+				RUS_the_supreme_soviet
+				RUS_reconvene_the_zemsky_sobor
 			}	
 		}
 		"RUS"={
@@ -159,18 +159,18 @@ bookmarks = {
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
 				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				RUS_second_five_year_plan_fake_1936_ns
+				RUS_politicized_military
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
+				RUS_behead_the_snake
+				RUS_father_of_nations
+				RUS_the_supreme_soviet
 			}	
 		}
 
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_1896_BOOKMARK_LOC"
 		}
 
 
