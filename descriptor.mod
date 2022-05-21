@@ -5,7 +5,7 @@ tags={
 }
 version="1.11.10"
 replace_path="common"
-replace_path="common\bookmarks"
+replace_path="common/bookmarks"
 # replace_path="gfx"
 # replace_path="history"
 # replace_path="interface"
