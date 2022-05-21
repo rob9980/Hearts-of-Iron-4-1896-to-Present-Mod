@@ -1,4 +1,4 @@
-bookmarks = {
+# bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
